@@ -99,3 +99,13 @@ ul {
 li {
     margin-bottom: 5px;
 }
+footer p a:visited {
+  color: #fff;
+}
+footer p a:hover {
+  color: #c8c8c8;
+}
+footer p {
+  color: #fff;
+  margin-top: 10px;
+}
