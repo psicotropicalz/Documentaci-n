@@ -75,6 +75,7 @@ footer {
 /* Indicadores de etiquetas semánticas */
 nav {
   border: 3px solid green;
+  border-radius: 10px;
 }
 
 main {
@@ -83,4 +84,12 @@ main {
 
 aside {
   border: 3px solid orange;
+  border-radius: 10px;
+}
+ul {
+    list-style: none;
+    padding: 5px;
+}
+li {
+    margin-bottom: 5px;
 }
