@@ -82,6 +82,7 @@ footer {
 nav {
   border: 3px solid green;
   border-radius: 10px;
+  max-height: fit-content;
 }
 
 main {
@@ -91,6 +92,7 @@ main {
 aside {
   border: 3px solid orange;
   border-radius: 10px;
+  max-height: fit-content;
 }
 ul {
     list-style: none;
