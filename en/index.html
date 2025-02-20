@@ -17,6 +17,17 @@
   <meta property="og:image" content="https://psicotropicalz.github.io/Documentaci-n/images/og-image.webp">
   <meta property="og:url" content="https://psicotropicalz.github.io/Documentaci-n/">
 
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -33,7 +44,7 @@
     <nav>
       <h2>Navegación local</h2>
       <ul>
-        <li><a href="https://es.lipsum.com/" target="_blank">Lorem Ipsum  (página oficial)</a></li>
+        <li><a href="https://es.lipsum.com/" target="_blank">Lorem Ipsum (página oficial)</a></li>
         <li><a href="https://psicotropicalz.github.io/Documentaci-n/index.html">Lorem Ipsum (Español)</a></li>
         <li><a href="https://psicotropicalz.github.io/Documentaci-n/en/index.html">Lorem Ipsum (Inglés)</a></li>
         <li><a href="https://psicotropicalz.github.io/Documentaci-n/it/index.html">Lorem Ipsum (Italiano)</a></li>
@@ -52,10 +63,10 @@
           Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
           versions
           of Lorem Ipsum.</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <h2 id="dondeEn">Where does it come from?</h2>
         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
           literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
@@ -66,10 +77,10 @@
           Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
           Renaissance.
           The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <h2 id="porqueEn">Why do we use it?</h2>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
           at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
@@ -77,10 +88,10 @@
           packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
           will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
           accident, sometimes on purpose (injected humour and the like).</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <h2 id="conseguirloEn">Where can I get some?</h2>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
           some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
@@ -105,6 +116,9 @@
   </div>
 
   <!-- COMPLETAR PIE DE PÁGINA -->
+  <footer>
+    <p>© 2025 Lorem Ipsum</p>
+  </footer>
 
 </body>
 
